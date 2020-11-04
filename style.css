@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+  overflow-x: hidden;
+}
+.mini-nav{
+	width: 100%;
+	background-color: #4c4c49;
+	height: 40px;
+	color: white;
+}
+.mini-nav .info{
+	float: left;
+	margin-left: 30px;
+	font-family: sans-serif;
+  margin-top: 10px;
+	font-size: 12px;
+}
+.mini-nav .info li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+.mini-nav .info li i{
+    margin-right: 15px;
+}
+.mini-nav .social{
+	float: right;
+    margin-right: 50px;
+    /* line-height: 2; */
+    font-size: 19px;
+    line-height: 2;
+}
+.mini-nav .social i{
+    margin-right: 30px;
+}
+
+/*main navbar*/
+.navbar1{
+    width: 100%;
+    background-color: #fbfbfb;
+    height: 81px;
+    /*position: sticky;*/
+    top: 0px;
+    display: inline-block;
+}
+.navbar1 .logo1{
+	float: left;
+	margin-left: 50px;
+  margin-top: 10px;
+}
+.navbar1 .logo1 h1{
+	font-family: 'Audiowide', cursive;
+	color: #4c4c49;
+	font-weight: 100;
+  float: left;
+}
+.navbar1 .logo1 h1 span{
+	color: #ff0101;
+}
+.navbar1 nav{
+	float: right;
+	margin-right: 50px;
+    margin-top: 20px;
+}
+.navbar1 nav ul li{
+	list-style: none;
+    display: inline-block;
+}
+.navbar1 nav ul li a{
+	text-decoration: none;
+    font-size: 20px;
+    margin-right: 33px;
+    font-family: sans-serif;
+    color: #4c4c49;
+    font-weight: 600;
+}
+.navbar1 nav ul li a:hover{
+	color: #ff0101;
+}
+
+/*header*/
+.header{
+	background-image: url(img/1.jpg);
+	width: 100%;
+	height: 650px;
+  background-position: cover;
+	background-size: cover;
+}
+.header img{
+	margin-top: 240px;
+    margin-left: 100px;
+}
+.header h1{
+	font-family: sans-serif;
+    margin-left: 311px;
+    font-size: 45px;
+   
+}
+.header p{
+	width: 44%;
+    text-align: center;
+    margin-left: 250px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.header button{
+	margin-left: 440px;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #fbfbfb;
+}
+
+.header button span{
+	cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.header button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.header button:hover span {
+  padding-right: 25px;
+}
+.header button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+/*logos*/
+.small-logos{
+	width: 100%;
+	height: 200px;
+	background-color: #f3f2f2;
+	text-align: center;
+}
+.small-logos img{
+	width: 70%;
+    margin-top: 50px;
+}
+
+/*our mission*/
+.container1{
+	width: 100%;
+	height: 500px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container1 .data{
+	width: 326px;
+	height: auto;
+	margin: 10px;
+	padding-top: 70px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.container1 .data h1{
+	font-size: 40px;
+    font-weight: 900;
+}
+.container1 .data img{
+	width: 337px;
+	object-fit: cover;
+	object-position: top;
+}
+.container1 .data button{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    background-color:#c6c6c6;
+    font-size: 20px;
+    /*transition: all 0.5s;*/
+}
+.container1 .data button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.container1 .data button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.container1 .data button:hover span {
+  padding-right: 25px;
+}
+.container1 .data button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* container-fluid**/
+.container-fluid1{
+  width: 100%;
+  height: 100%;
+}
+.container-fluid1 .row .col-lg-6 img{
+  width: 100%;
+}
+.container-fluid1 .row .col-lg-6 p{
+  width: 70%;
+}
+.container-fluid1 .row .col-lg-6 button{ 
+   width: 200px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    background-color:#c6c6c6;
+    font-size: 20px;
+    /*transition: all 0.5s;*/
+}
+
+.container-fluid1 .row .col-lg-6 button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.container-fluid1 .row .col-lg-6 button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.container-fluid1 .row .col-lg-6 button:hover span {
+  padding-right: 25px;
+}
+.container-fluid1 .row .col-lg-6 button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*green*/
+.green{
+  background-color: #f3f2f2;
+  width: 100%;
+  height: 100%;
+}
+.green .line{
+  background-color: #212529;
+  width: 1px;
+  height: 40px;
+  margin-top: 15px;
+}
+.green .row .col{
+  text-align: center;
+}
+
+
+/*container*/
+.container{
+  margin-top: 50px;
+}
+.container img{
+  /*width: 300px;
+  height: 320px;*/
+  padding-top: 40px
+}
+.container button{
+   width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    background-color:#c6c6c6;
+    font-size: 20px;
+    /*transition: all 0.5s;*/
+}
+
+.container button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.container button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.container button:hover span {
+  padding-right: 25px;
+}
+.container button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
